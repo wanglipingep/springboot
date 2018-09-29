@@ -1,0 +1,13 @@
+server:
+  port: 80
+management:
+  server:
+    port: 5401 #设置监听程序端口
+  health:
+    db:
+      enabled: true
+    mail:
+      enabled: true
+  endpoint:
+    health:
+      enabled: true
